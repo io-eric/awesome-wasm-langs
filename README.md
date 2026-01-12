@@ -219,8 +219,13 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="coi"></a>Coi <sup>[top⇈](#contents)</sup>
-> A component-based language for high-performance web apps. Fast. Minimal. Type-safe.
-> Compiles to WASM, JS, and HTML with tiny binaries and efficient updates for DOM, Canvas, and beyond.
+> Coi is a component-based language for high-performance web apps (Fast, Minimal, Type-safe) with the following features:
+> 
+> - Fine-Grained Reactivity: State changes map directly to DOM elements at compile-time. No Virtual DOM overhead.
+> - Type-Safe Components: Compile-time error checking with strictly typed parameters and state.
+> - Minimal Runtime: Tiny WASM binaries with high-performance updates for DOM, Canvas, and more.
+> - Integrated DOM & Styling: Write HTML elements and scoped CSS directly in components.
+> - View Control Flow: Declarative `<if>`, `<else>`, and `<for>` tags for conditional rendering and iteration.
 * [Coi](https://github.com/io-eric/coi) - main repository.
 
 --------------------
